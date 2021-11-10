@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T05:44:52.117Z",
+        "line": 4,
+        "name": "User able to Sign In with valid credential and verify the home page",
+        "description": "",
+        "id": "sign-in;user-able-to-sign-in-with-valid-credential-and-verify-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2150000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Users can open any browser",
+            "match": {
+              "location": "com.stepdef.Stepdefzoopla.users_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1732000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Users able to enter url as \"https://www.zoopla.co.uk/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdef.Stepdefzoopla.users_able_to_enter_url_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Users able to click Sign In button",
+            "match": {
+              "location": "com.stepdef.Stepdefzoopla.users_able_to_click_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Users enter valid username as \"hossain.smarttech2020@gmail.com\" and password as \"sazzad2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hossain.smarttech2020@gmail.com\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"sazzad2020\"",
+                  "offset": 80
+                }
+              ],
+              "location": "com.stepdef.Stepdefzoopla.users_enter_valid_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4114000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Users click the Sign In button",
+            "match": {
+              "location": "com.stepdef.Stepdefzoopla.users_click_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Users can verify Sign In page",
+            "match": {
+              "location": "com.stepdef.Stepdefzoopla.users_can_verify_sign_in_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Users can close the browser",
+            "match": {
+              "location": "com.stepdef.Stepdefzoopla.users_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TS_001"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Sign In",
+    "description": "",
+    "id": "sign-in",
+    "keyword": "Feature",
+    "uri": "file:Features/loginzoopla.feature",
+    "tags": []
+  }
+]
