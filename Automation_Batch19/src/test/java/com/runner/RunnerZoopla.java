@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"com.stepdef"},//step defination pakagename
 		dryRun =false,
 		monochrome = true,
-		plugin = {"pretty","json:target/cucumber-reports/cucumber.json"},
+				plugin= {"pretty","json:target/cucumber.json" },	
 		tags = " @SmokeTest " //or @NegativeTest
 		)
 public class RunnerZoopla extends AbstractTestNGCucumberTests{
